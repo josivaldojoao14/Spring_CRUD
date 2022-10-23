@@ -100,4 +100,9 @@ public class Order implements Serializable {
 			return false;
 		return true;
 	}
+
+	@Override
+	public String toString() {
+		return "Order [id=" + id + ", moment=" + moment + ", user=" + user + ", orderStatus=" + orderStatus + "]";
+	}
 }
